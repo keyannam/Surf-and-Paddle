@@ -22,7 +22,7 @@ class Post1Controller < ApplicationController
     @post1 = @post1_name.first
     render :show
   end
-  
+
 
   def show
     @post = @post_name.find do |post|
