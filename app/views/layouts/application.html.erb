@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab4</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <div id="overlay">
+      <div id="logo">
+         <p> <img src="assets/logo.png">SURF & PADDLE CO.</p>
+      </div>
+      <div id="navlinks">
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Search <img src="assets/search-icon.png" /></li>
+      <li>
+        <a href="#">About</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div id="main-text">
+  <h1>SURF & PADDLE CO.</h1>
+  <h4>An Ironyard Academy Project Est Summer 2015</h4>
+</div>
+</header>
+
+<%= yield %>
+
+  <footer>
+  <div id="bottom_logo">
+    <p><img src="assets/theironyard-logo.png">The Ironyard Copyright 2015, All Rights Reserved.</p>
+  </div>
+  <div id="links">
+    <ul>
+      <li>Nav 1 |</li>
+      <li>Nav 2 |</li>
+      <li>Nav 3 |</li>
+      <li>Nav 5 </li>
+    </ul>
+  </div>
+
+
+
+
+
+
+  </footer>
+
+</body>
+</html>

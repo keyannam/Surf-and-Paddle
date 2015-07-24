@@ -1,0 +1,286 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ header {
+   width: 80.25em;
+   height: 520px;
+   margin: 0;
+   padding: 0;
+   background: url(../assets/background.jpg) no-repeat;
+   background-size: cover;
+ }
+
+ div#overlay {
+   width: 80.25em;
+   height: 520px;
+   background-color: rgba(18, 110, 180, .65);
+ }
+
+ div#logo {
+   width: 45%;
+   display: inline-block;
+ }
+
+ div#logo p {
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif;
+   color: #ffffff;
+   text-align: left;
+   float: left;
+   padding-left: 2em;
+   margin-top: 1em;
+ }
+
+ nav {
+   width: 85%;
+   height: 10%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ div#navlinks {
+   font-size: 1.5em;
+   font-family: 'Open Sans', sans-serif;
+   color: #fff;
+   width: 45%;
+   display: inline-block;
+   float: right;
+   text-decoration: none;
+   text-transform: uppercase;
+ }
+
+ div#main-text h1 {
+   font-size: 5em;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   margin: 15px;
+   padding: 10px;
+   color: #ffffff;
+ }
+
+ div#main-text h4 {
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   color: #00008B;
+ }
+
+ header ul {
+   list-style: none;
+ }
+
+ nav ul li {
+   float: right;
+   font-family: 'Open Sans', sans-serif;
+   padding-right: .5em;
+   margin-bottom: 1em;
+   color: #fff;
+ }
+
+ header h1 {
+   text-align: center;
+   margin: 0 auto;
+   padding: 5 auto;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 3em;
+ }
+
+ h4 {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ article {
+   font-family: 'Open Sans', sans-serif;
+   width: 555px;
+   margin-left: 10em;
+   float: left;
+ }
+
+ article h1 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 3em;
+   color: #26466D;
+ }
+
+ div#blog_post {
+   text-align: left;
+ }
+
+ div#blog_post span#name {
+   color: blue;
+   font-size: 1em;
+ }
+
+ article blockquote {
+   font-size: 2em;
+   color: #0080ff;
+ }
+
+ article ul li {
+   list-style: none;
+   float: right;
+   padding: .5em;
+ }
+
+ aside {
+   float: left;
+   width: 300px;
+   height: 800px;
+   padding: .5em;
+ }
+
+ aside #top_content {
+   text-align: center;
+   width: 100%;
+ }
+
+ aside ul {
+   padding: 0;
+ }
+
+ aside ul li {
+   list-style: none;
+   float: right;
+   width: 33%;
+   display: inline;
+ }
+
+ div#ad {
+   text-align: right;
+   display: inline-block;
+   width: 100%;
+   margin: 1em;
+ }
+
+ div#sidebar h3 {
+   color: #080847;
+   font-family: 'Open Sans', sans-serif;
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+ }
+
+ div#sidetext p {
+   font-family: 'Open Sans', sans-serif;
+   width: 100%;
+   display: inline-block;
+   text-align: left;
+   margin: 0;
+ }
+
+ div#bottom_posts {
+   display: block;
+   overflow: auto;
+   clear: both;
+   width: 83.25em;
+ }
+
+ div#bottom_posts h1 {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 3em;
+   color: #26466D;
+   text-transform: uppercase;
+   margin: 1em;
+
+ }
+
+ div#tint {
+   width: 325px;
+   height: 325px;
+   background-color: rgba(18, 110, 180, .65);
+ }
+
+ div#tint:hover {
+   background-color: rgba(18, 110, 200, .3);
+ }
+
+ div#post_1 {
+   height: 300px;
+   width: 24%;
+   float: left;
+ }
+
+ div#post_1 span {
+   color: #ffffff;
+   font-size: 1.5em;
+ }
+
+ div#post_2 {
+   height: 300px;
+   width: 24%;
+   float: left;
+ }
+
+ div#post_2 span {
+   color: #ffffff;
+   font-size: 1.5em;
+ }
+
+ div#post_3 {
+   height: 300px;
+   width: 24%;
+   float: left;
+ }
+
+ div#post_3 span {
+   color: #ffffff;
+   font-size: 1.5em;
+ }
+
+ div#post_4 {
+   height: 300px;
+   width: 24%;
+   float: left;
+ }
+
+ div#post_4 span {
+   color: #ffffff;
+   font-size: 1.5em;
+ }
+
+ div#bottom_logo {
+   width: 45%;
+   display: inline-block;
+   margin: 0 auto;
+   color: #fff;
+ }
+
+ footer {
+   background-color: #26466D;
+ }
+
+ footer p {
+   font-color: #fff;
+   text-align: left;
+   display: inline-block;
+ }
+
+ div#links {
+   color: #fff;
+   width: 45%;
+   display: inline-block;
+   text-align: right;
+ }
+
+ footer ul li {
+   list-style: none;
+   width: 11%;
+   display: inline-block;
+   text-align: left;
+ }
